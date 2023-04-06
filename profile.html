@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+		crossorigin="anonymous"
+	/>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Индекс Драйв</title>
+</head>
+
+<body>
+	<header class="header bg-dark">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-4 text-white">
+					<span><a href="/index.html" class="text-decoration-none text-white">Индекс Драйв</a></span>
+				</div>
+				<nav class="col-4 navbar navbar-expand-lg navbar-dark">
+					<div class="container-fluid">
+						<div class="collapse navbar-collapse d-flex align-items-center justify-content-center"
+							id="navbarNavAltMarkup">
+							<div class="navbar-nav">
+								<a class="nav-link" href="#">Акции</a>
+								<a class="nav-link" href="/bookingPage.html">Бронирование</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<nav class="col-4 navbar navbar-expand-lg navbar-dark">
+					<div class="container-fluid">
+						<div class="collapse navbar-collapse d-flex align-items-center justify-content-center"
+							id="navbarNavAltMarkup">
+							<div class="navbar-nav">
+								<a class="nav-link text-warning" href="/loginPage.html">Личный кабинет</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="container rounded bg-white mt-5 mb-5">
+		<div class="row">
+			<div class="col-md-3 border-right">
+				<div class="d-flex flex-column align-items-center text-center p-3 py-5">
+					<img class="rounded-circle mt-5" width="150px"
+						src="https://sun9-18.userapi.com/impg/IfciDOrMu9J98wCerl3bAtwfQgzYum7htaV3Lg/3uFnNifk84c.jpg?size=2560x2560&quality=95&sign=6569788752ef0937ac8b1258c5108af8&type=album" />
+					<span class="font-weight-bold">Вороненко Александр Александрович</span>
+					<span class="text-black-50">alexander.voronenko@mail.ru</span>
+				</div>
+			</div>
+			<div class="col-md-5 border-right">
+				<div class="p-3 py-5">
+					<div class="d-flex justify-content-between align-items-center mb-3">
+						<h4 class="text-right">Профиль</h4>
+					</div>
+					<div class="row mt-2">
+						<div class="col-md-6">
+							<label class="labels">Имя</label><input type="text" class="form-control" placeholder="Александр" value=""
+								disabled />
+						</div>
+						<div class="col-md-6">
+							<label class="labels">Фамилия</label><input type="text" class="form-control" value=""
+								placeholder="Вороненко" disabled />
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-md-12">
+							<label class="labels">Номер телефона</label><input type="text" class="form-control" disabled
+								placeholder="+7-993-313-01-75" value="" />
+						</div>
+						<div class="col-md-12">
+							<label class="labels">Количество бронирований</label><input type="text" class="form-control" disabled
+								placeholder="25" value="" />
+						</div>
+						<div class="col-md-12">
+							<label class="labels">Баллы</label><input type="text" class="form-control" disabled
+								placeholder="5490 драйвиков" value="" />
+						</div>
+						<div class="col-md-12">
+							<label class="labels">Email</label><input type="text" class="form-control" disabled
+								placeholder="alexander.voronenko@mail.ru" value="" />
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-md-12">
+							<label class="labels">Регион</label><input type="text" class="form-control" disabled
+								placeholder="Краснодарский край" value="" />
+						</div>
+					</div>
+					<div class="mt-5 text-center">
+						<button class="btn btn-primary profile-button mt-5" type="button">
+							Изменить профиль
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="p-3 py-5">
+					<div class="d-flex justify-content-between align-items-center experience">
+						<span>История бронирований</span><span class="border px-3 p-1 add-experience"><i
+								class="fa fa-plus"></i>&nbsp;Посмотреть</span>
+					</div>
+					<br />
+					<div class="col-md-12">
+						<label class="labels">Самое дорогое бронирование</label>
+						<div class="row mt-2">
+							<div class="col-4">
+								<input type="text" class="form-control" placeholder="919239123" readonly />
+							</div>
+							<div class="col-4" data-toggle="modal" data-target="#exampleModal">
+								<button class="btn btn-primary">Подробнее</button>
+							</div>
+							<div class="col-4">
+								<button class="btn btn-warning">Забронировать</button>
+							</div>
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">
+												Информация об авто
+											</h5>
+										</div>
+										<div class="modal-body d-flex flex-column gap-2">
+											<img src="/image/car.jpg" class="img-fluid rounded-1" alt="Responsive image" />
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="id: 919239123" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Марка: BMW" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Название авто: BWM X7 2022" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Номера: В777АА 123" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Дата бронирования: 22.03.23" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Дата возврата: 30.03.23" readonly />
+											</div>
+
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<div class="input-group-text">₽</div>
+												</div>
+												<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="368 000"
+													readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Филиал: Краснодар" readonly />
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">
+												Close
+											</button>
+										</div>
+									</div>
+								</div>
+						</div>
+							
+							
+						</div>
+					</div>
+					<br />
+					<div class="col-md-12">
+						<label class="labels">Самое длительное бронирование</label>
+						<div class="row mt-2">
+							<div class="col-4">
+								<input type="text" class="form-control" placeholder="919239123" readonly />
+							</div>
+							<div class="col-4" data-toggle="modal" data-target="#exampleModal">
+								<button class="btn btn-primary">Подробнее</button>
+							</div>
+							<div class="col-4">
+								<button class="btn btn-warning">Забронировать</button>
+							</div>
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">
+												Информация об авто
+											</h5>
+										</div>
+										<div class="modal-body d-flex flex-column gap-2">
+											<img src="/image/car.jpg" class="img-fluid rounded-1" alt="Responsive image" />
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="id: 919239123" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Марка: BMW" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Название авто: BWM X7 2022" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Номера: В777АА 123" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Дата бронирования: 22.03.23" readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Дата возврата: 30.03.23" readonly />
+											</div>
+
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<div class="input-group-text">₽</div>
+												</div>
+												<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="368 000"
+													readonly />
+											</div>
+
+											<div class="about-car w-100">
+												<input class="form-control" type="text" placeholder="Филиал: Краснодар" readonly />
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">
+												Close
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer bg-dark py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h5 class="text-white text-center">+7 993 313 01 75</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

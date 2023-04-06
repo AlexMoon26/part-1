@@ -1,0 +1,10 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+.trusted-us {
+	background-image: url(/image/car.jpg);
+	background-color: aqua;
+}
