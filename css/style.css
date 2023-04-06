@@ -5,6 +5,6 @@ html, body {
 }
 
 .trusted-us {
-	background-image: url(/image/car.jpg);
+	background-image: url(../image/car.jpg);
 	background-color: aqua;
 }
